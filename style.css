@@ -21,14 +21,29 @@ h1{
   h1{
     padding-top:110px;
   }
+  div.desc{
+    width:250px;
+  }
 }
 @media (min-width:640px){
+  div.gallery{
+    margin-right:10px;
+    float:left;
+  }
   h1{
     padding-top:150px;
+  }
+  .sidebar{
+    width:35%;
+    float:right;
   }
 
 }
 @media (min-width:912px){
+  div.gallery{
+    margin-right:10px;
+    float:left;
+  }
   h1{
     padding-top:147.5px;
     font-size:100px;
@@ -44,6 +59,7 @@ h1{
 }
 .content{
   margin-top:20px;
+  height:auto;
 }
 .about-me{
   text-align:center;
@@ -72,12 +88,15 @@ h1{
 }
 .nav li{
   border: 2px solid #262523;
+  background-color:#262523;
   text-align:center;
   padding-top:10px;
   padding-bottom:10px;
-  background-color:#262523;
   margin-bottom:33.33px;
   font-size:25px;
+}
+.nav li:hover{
+  background:black;
 }
 .fa-stack{
   width:100% !important;
@@ -89,11 +108,28 @@ h1{
   width:100%;
   text-align:center;
 }
-a:hover{
+i:hover{
   opacity:0.8;
   transition:0.5s;
 }
-a{
+i{
   transition:0.5s;
-  text-decoration:none;
+}
+
+
+div.gallery{
+  margin-right:10px;
+}
+div.gallery:hover{
+  opacity:0.8;
+}
+.gallery-container{
+  display:block;
+  margin-left:30px;
+}
+div.desc{
+  background-color:#262523;
+  color:#fffdef;
+  margin-bottom:1px;
+  padding:5px;
 }
