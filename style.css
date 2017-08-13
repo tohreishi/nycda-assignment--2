@@ -1,5 +1,8 @@
+body{
+  background:#fffdef;
+}
 .header{
-  background-color:red;
+  background-color:#f44242;
   height:400px;
   opacity:0.9;
 }
@@ -7,14 +10,25 @@ h1{
   text-align:center;
   font-size:65px;
   padding-top:83.75px;
-  color:white;
+  color:#fffdef;
   letter-spacing: 5px;
   padding-left:20px;
   padding-right:20px;
   z-index:1;
   position:relative;
 }
-@media (min-width:819px){
+@media(min-width:375px){
+  h1{
+    padding-top:110px;
+  }
+}
+@media (min-width:640px){
+  h1{
+    padding-top:150px;
+  }
+
+}
+@media (min-width:912px){
   h1{
     padding-top:147.5px;
     font-size:100px;
@@ -29,39 +43,39 @@ h1{
   }
 }
 .content{
-  border:20px solid red;
-  border-radius:10px;
   margin-top:20px;
 }
 .about-me{
   text-align:center;
   font-size:35px;
   text-decoration:underline;
+  color:#262523;
 }
 .about-me-section{
   text-align: justify;
   padding-left:20px;
   padding-right:20px;
+  color:#262523;
 }
 .sidebar{
-  background-color:white;
+  background-color:#fffdef;
   margin-top:30px;
 }
 
 .nav a{
   text-decoration:none;
   list-style-type: none;
-  color:white;
+  color:#fffdef;
 }
 .nav{
   margin-bottom:75px;
 }
-li{
-  border: 2px solid black;
+.nav li{
+  border: 2px solid #262523;
   text-align:center;
   padding-top:10px;
   padding-bottom:10px;
-  background-color:black;
+  background-color:#262523;
   margin-bottom:33.33px;
   font-size:25px;
 }
@@ -70,8 +84,8 @@ li{
   margin-top:-45px;
 }
 .fa{
-  color:black;
-  background-color:red;
+  color:#262523;
+  background-color:#f44242;
   width:100%;
   text-align:center;
 }
