@@ -37,6 +37,8 @@ h1{
     width:35%;
     float:right;
   }
+}
+@media (min-width:768px){
 
 }
 @media (min-width:912px){
@@ -133,3 +135,26 @@ div.desc{
   margin-bottom:1px;
   padding:5px;
 }
+.images{
+height:auto;
+background-color:#628c48;
+border: 10px solid #456332;
+margin:0px auto;
+}
+.book-gallery {
+  height:280px;
+  background-size:contain;
+  width:200px;
+  display:inline-block;
+  background-color:#f44242;
+  border:3px solid #fffdef;
+  margin:0px auto;
+  margin-left:39px;
+
+}
+.image{background-image:url("assets/images/nyt-astronomy.jpg");}
+.image2{background-image:url("assets/images/egoisthenenemy.jpg");}
+.image3{background-image:url("assets/images/thebigidea.jpg");}
+.image4{background-image:url("assets/images/iching.jpg");}
+.image5{background-image:url("assets/images/divinecomedy.jpg");}
+.image6{background-image:url("assets/images/Timemachinebook.JPG");}
