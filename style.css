@@ -1,0 +1,60 @@
+.header{
+  background-color:red;
+  height:400px;
+  opacity:0.9;
+}
+h1{
+  text-align:center;
+  padding-top:90px;
+  font-size:60px;
+  color:white;
+  letter-spacing: 5px;
+  padding-left:20px;
+  padding-right:20px;
+  z-index:1;
+  position:relative;
+}
+.icon{
+  height:220px;
+  width:350px;
+  float:right;
+  position:relative;
+  bottom:265px;
+  left:20px;
+  z-index:0;
+
+}
+.content{
+  border:20px solid red;
+  border-radius:10px;
+  margin-top:20px;
+}
+.about-me{
+  text-align:center;
+  font-size:35px;
+  text-decoration:underline;
+}
+.about-me-section{
+  text-align: justify;
+  padding-left:20px;
+  padding-right:20px;
+}
+.sidebar{
+  background-color:white;
+  margin-top:30px;
+}
+
+.nav a{
+  text-decoration:none;
+  list-style-type: none;
+  color:white;
+}
+li{
+  border: 2px solid red;
+  text-align:center;
+  padding-top:10px;
+  padding-bottom:10px;
+  background-color:red;
+  margin-bottom:33.33px;
+  font-size:25px;
+}
