@@ -5,8 +5,8 @@
 }
 h1{
   text-align:center;
-  padding-top:90px;
-  font-size:60px;
+  font-size:65px;
+  padding-top:83.75px;
   color:white;
   letter-spacing: 5px;
   padding-left:20px;
@@ -14,15 +14,19 @@ h1{
   z-index:1;
   position:relative;
 }
-.icon{
-  height:220px;
-  width:350px;
-  float:right;
-  position:relative;
-  bottom:265px;
-  left:20px;
-  z-index:0;
-
+@media (min-width:819px){
+  h1{
+    padding-top:147.5px;
+    font-size:100px;
+  }
+  .content{
+    float: left;
+   width: 60%;
+  }
+  .sidebar{
+    width:35%;
+    float:right;
+  }
 }
 .content{
   border:20px solid red;
@@ -49,12 +53,33 @@ h1{
   list-style-type: none;
   color:white;
 }
+.nav{
+  margin-bottom:75px;
+}
 li{
-  border: 2px solid red;
+  border: 2px solid black;
   text-align:center;
   padding-top:10px;
   padding-bottom:10px;
-  background-color:red;
+  background-color:black;
   margin-bottom:33.33px;
   font-size:25px;
+}
+.fa-stack{
+  width:100% !important;
+  margin-top:-45px;
+}
+.fa{
+  color:black;
+  background-color:red;
+  width:100%;
+  text-align:center;
+}
+a:hover{
+  opacity:0.8;
+  transition:0.5s;
+}
+a{
+  transition:0.5s;
+  text-decoration:none;
 }
